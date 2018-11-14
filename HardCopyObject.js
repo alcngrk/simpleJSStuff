@@ -35,7 +35,7 @@ function shallowCp(obj){
 
 // Don't mind the long console.log 
 function printComparison(obj1, str1, obj2, str2, time){
-    console.log(`\x1b[32m%s\x1b[0m and \x1b[32m%s\x1b[0m are the same : ? \x1b[31m%s\x1b[0m, time took to copy: \x1b[35m%s\x1b[0m ms`, str1, str2, (obj1 === obj2), time);
+    console.log(`\x1b[34m%s\x1b[0m and \x1b[34m%s\x1b[0m are the same : ? \x1b[31m%s\x1b[0m, time took to copy: \x1b[35m%s\x1b[0m ms`, str1, str2, (obj1 === obj2), time);
 }
 
 const originalObj = {
